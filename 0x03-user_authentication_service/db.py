@@ -77,4 +77,4 @@ class DB:
             update_source,
             synchronize_session=False,
         )
-        self._session.commit(
+        self._session.commit()
